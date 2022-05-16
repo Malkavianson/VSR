@@ -150,10 +150,12 @@ section#title > div {
 	height: 50%;
 	width: 80%;
 	font-size: 2.3rem;
-border-radius: 10rem;}
+	border-radius: 10rem;
+}
 section#showroom img {
 	width: 100%;
-	aspect-ratio: 1;
+	max-height: 35%;
+	/* aspect-ratio: 1; */
 }
 section#showroom {
 	height: fit-content;
@@ -248,7 +250,8 @@ section#about span {
 	font-size: 1.4em;
 	text-shadow: 0 0 0.3rem #ffffff;
 	font-weight: 700;
-overflow-y: scroll;}
+	overflow-y: scroll;
+}
 section#about h3 {
 	font-size: 3rem;
 }
