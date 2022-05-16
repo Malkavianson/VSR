@@ -34,10 +34,14 @@
 		top: 1rem;
 		height: 64px;
 		width: 64px;
-		
+		display: flex;
+		padding: 0.5rem;
 		border: solid 2px rgba(229,190,70,1);
+		align-items: flex-end;
+		justify-content: space-evenly;
+		flex-direction: column;
 	}
-	div#navbtn:hover+div{
+	div#navbtn:hover+div,header>div:nth-child(3):hover{
 		transform: translate(-22rem, 0);
 		-webkit-transform: translate(-22rem, 0);
 	}
@@ -60,6 +64,19 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-evenly;
+	}
+	div#sand {
+		height: 0.5rem;
+		width: 3rem;
+		border-radius: 1rem;
+		background: black;
+	}
+	div#navbtn::before, div#navbtn::after{
+		content: ' ';
+		border-radius: 1rem;
+		height: 0.5rem;
+		width: 3rem;
+		background: black;
 	}
 }
 @media(orientation: landscape) {
