@@ -1,2 +1,0 @@
-# VSR
- Varejão_portifolio
