@@ -34,7 +34,7 @@
 		top: 1rem;
 		height: 64px;
 		width: 64px;
-		z-index: 1;
+		
 		border: solid 2px rgba(229,190,70,1);
 	}
 	div#navbtn:hover+div{
@@ -64,7 +64,7 @@
 }
 @media(orientation: landscape) {
 	html {
-		font-size: 1.8vw;
+		font-size: 1.5vw;
 	}
 	header nav {
 		height: 100%;
@@ -275,4 +275,29 @@ footer {
 	padding: 0 2rem;
 	background: rgba(270, 230, 20, 0.3);
 	
+}
+footer>div {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.7rem;
+}
+footer>div:nth-child(2){
+	width: 50%;
+}
+footer>div:nth-child(3){
+	justify-content: flex-end;
+}
+footer span {
+	text-align: center;
+}
+footer a {
+	height: 100%;
+	width: fit-content;
+}
+footer img {
+	max-height: 95%;
+	padding: 0.5rem;
 }
