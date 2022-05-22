@@ -132,9 +132,9 @@ section .title::after {
 	min-height: 31.25em;
 	font-family: 'Chery', sans-serif;
 }
-.home .max-width {
+/* .home .max-width { */
 	/* margin: auto 0 auto 80px; */
-}
+/* } */
 .home .home-content .text1 {
 	font-size: 80px;
 }
